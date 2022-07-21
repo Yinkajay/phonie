@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Name of chosen challenge</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Phonie <sup>+234</sup></h1>
+  <div class="container">
+      <form action="">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" pattern="[a-zA-Z]{0,}" > <br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" pattern="[a-zA-Z]{0,}"> <br>
+        <label for="phoneNumber">Telephone sNumber:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" pattern="0[789]0[0-9]{8}||234[789]0[0-9]{8}"> <br>
+        <p>If typing in international format (+234) exclude the "+"</p>
+        <button class="button"  type="button">Get Your Network</button>
+        <p class="second-p">.</p>
+      </form>
+      <h3>Your Network is</h3> <br>
+      <img class="network-img" src="images/unknown.jpg" alt="">
+  </div>
+
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+</body>
+
+</html>
